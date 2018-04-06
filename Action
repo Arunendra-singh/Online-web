@@ -4,7 +4,7 @@ if (typeof DEBUG === 'undefined') { DEBUG = true; }
 
 (function (root, factory) {
   'use strict';
-  /*global define*/
+                                                    /*global define*/
   if (typeof define === 'function' && define.amd) {
     define(factory(root));
   } else if (typeof exports === 'object') {
