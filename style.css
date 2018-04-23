@@ -1,0 +1,481 @@
+/**
+Theme Name: Html-to-WordPress
+Author: Arunendra Singh
+Description: HTML template converted to Wordpress
+*/
+
+	ul {
+		list-style: none;
+	}
+	li a {
+		text-decoration:none;
+	}
+	.abc:hover {
+		content:" ";
+		background:#d1d9d9;
+		opacity:0.5;
+	}
+	button:hover{
+		background:#d1d1d1;
+		opacity:0.8;
+	}
+	
+	#text-4 h3, #text-5 h3, #text-6 h3, #text-7 h3 {
+		color:#fff !important;
+	}
+	
+	#text-9 p, #text-10 > .textwidget{ display:flex;}
+	
+	/* Header stylesheet */
+	.masthead {
+		background-image: url("img/slide.jpg");
+		height:620px;
+		background-size: 1400px 900px;
+	}
+	.logo-menu {
+		padding-left: 0px; padding-right: 0px;
+	}
+	.logo-menu .txt_head {
+		position:absolute; top:200px; left:75px; font-weight:600;
+	}
+	.txt_head h1 {
+		color:#fff;font-size:60px;
+	}
+	.txt_head button {
+		border-radius: 20px; padding:5px 30px; 
+		background:transparent; border:2px solid #01bdfb;
+	}
+	#navbarResponsive {
+		width: 100%; margin-top: 20px;
+	}
+	#navbarResponsive li {
+		width: 11%; text-align: center;
+		float: left; 
+	}
+	#navbarResponsive li a {
+		text-decoration:none;
+	}
+	
+	/* Main sections stylesheet */
+	#section_01 {
+		background:#202833; margin-bottom:20px;   
+	}
+	.Process {
+		padding:10px 0; position: relative;
+	}
+	.txt_center h3 {
+		text-align:center; font-weight:600;
+		color:#fff; text-transform: uppercase;
+	}
+    .Process h3:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        margin: 0 auto;
+		left: 10px;;
+        right: 0;
+		width: 5%;
+		background: linear-gradient(90deg, blue, green);
+		bottom: -4px; 	/* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+	}
+	.Process .col-md-3 h5{
+		background:#01bdfb;padding:30px 5px; margin-bottom:0; text-align:center; font-weight:500; font-size:18px; color:#fff;text-transform:uppercase; letter-spacing:2px;
+	}
+
+	.Process .col-md-3 .inp-01 button{
+		border-radius: 20px;padding:5px 30px; background-color:#01bdfb; border:none; font-size:16px;
+	}
+	.Process .col-md-3 p.alt-02{
+		background: #eaeaea;
+	}
+	
+	.services {
+		margin-bottom:30px; position: relative;
+	}
+	.service::after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        margin: 0 auto;
+		left: 10px;;
+        right: 0;
+		top: 50px;
+		width: 5%;
+		background: linear-gradient(90deg, blue, green);
+	}
+	.services > div {
+		display:block;
+	}
+	.services  h3 {
+		text-align:center; font-weight:600;
+		text-transform: uppercase;
+	}
+	.service_div {
+		margin-bottom: 10px; margin-top: 10px;
+	}
+	.service_div p {
+		text-align:justify;
+	}
+	.service_img img{
+		width:100%; padding:2px; height: 265px
+	}
+	.services .i_title a {
+		float:left;
+	}
+	.services .i_title h4 {
+		float:right; font-size: 15px;
+		text-transform: uppercase;
+	}
+	
+	#section_03 {
+		padding-bottom:10px;
+		background-image: url("img/abut-back-lyr.png"),url("img/back-img-lyr.png");
+	}
+	.aboutus h5 {
+		background:#01bdfb;padding:10px 3px; 
+		margin-bottom:0; text-align:center; 
+		font-weight:500; font-size:18px; 
+		color:#fff;text-transform:uppercase;
+	}
+	.input_box {
+		background: #696664; text-align: center;
+		padding: 0 0 10px 0;
+	}
+	.input_box .input_icon i {
+		position: relative; left: -25px;
+		color: #7B7B7B; top: 1px; color:#98bd2f;
+	}
+	.input_box .msg textarea {
+		padding: 2px 2px; margin: 10px auto;
+	}
+	.input_box button{
+		border-radius: 20px; padding:5px 30px; 
+		background-color:#01bdfb; border:none; font-size:16px;
+	}
+	.about_head h3 {
+		color:#fff; position: relative;
+		text-transform: uppercase;
+	}
+	.about_head h3::after {
+        position: absolute;
+        content: '';
+        height: 2px;
+		left: 0;
+        right: 0;
+		top: 35px;
+		width: 7%;
+		background: linear-gradient(90deg, blue, green);
+	}
+	.about_head + h3 {
+		color:#77a254; font-weight:600;
+	}
+	.about_head p {
+		padding:5px 0; 
+		font-weight:500; line-height: 1.5;
+	}
+	.aboutus p {
+		color:#fff;
+	}
+	.aboutus button {
+		border-radius: 20px;padding:5px 20px; 
+		background-color:#01bdfb; border:none; font-size:16px;
+	}
+	
+	#section_04 {
+		background:#202833; padding: 30px 0;
+	}
+	.Projects > div {
+		padding:0 10px;
+	}
+	.Projects h3 {
+		color:#ffff; font-weight: 500; position: relative;
+		float:left; text-transform: uppercase;
+	}
+	.Projects h3::after {
+        position: absolute;
+        content: '';
+        height: 2px;
+		left: 0;
+        right: 0;
+		top: 35px;
+		width: 30%;
+		background: linear-gradient(90deg, blue, green);
+	}
+	.Projects p {
+		color:#fff; margin-top: 20px; margin-bottom: 10px;float:right;
+	}
+	
+	#section_05 { }
+	.Gallery {
+		padding-right: 0px; 
+		padding-left: 0px;
+	}
+	.img-grid, .img-grid .col-md-3{
+		padding-right: 0; 
+		padding-left: 0; 
+	}
+	.img-grid a img {
+		width:100%; padding:1px;height: 265px;
+	}
+	
+	#section_06 {
+		background:#98bd2f;font-size:28px;
+	}
+	.CTA > div {
+		padding:10px 25px;
+	}
+	.CTA h3 {
+		color:#ffff;text-transform:uppercase;
+		float:left;letter-spacing: 0.3px;
+	}
+	.CTA h3 span {
+			font-size:28px; font-weight:600;
+			
+	}
+	.CTA  button {
+		margin-top: 30px; float:right; font-weight:600;
+		border-radius: 20px;padding:10px 20px; 
+		border:none; font-size:12px; 
+		color:#98bd2f; background-color:#fff;
+		text-align:center; text-transform: uppercase;
+	}
+	
+	#section_07 h3 {
+		text-transform:uppercase;
+		padding:10px 10px; position: relative;
+	}
+	#section_07 h3:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        margin: 0 auto;
+		left: 10px;;
+        right: 0;
+		width: 5%;
+		background: linear-gradient(90deg, blue, green);
+		bottom: -4px;
+	}
+	
+	#section_08 {
+		background-image: url("img/back-img.png"),url("img/back-img-lyr.png");
+		background-repeat: no-repeat, repeat;
+	}
+	.Pricing {
+		display:block; text-align:center; 
+		margin:auto; padding: 10px 0;
+	}
+	.Pricing h3 {
+		text-align:center; font-weight:600; position: relative;
+		color:#fff; text-transform: uppercase;
+	}
+	.Pricing h3:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        margin: 0 auto;
+		left: 10px;;
+        right: 0;
+		width: 5%;
+		background: linear-gradient(90deg, blue, green);
+		bottom: -4px; 	
+	}
+	.Pricing h5 {
+		background: #01bdfb;
+		padding: 30px 5px;
+		margin-bottom: 0;
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.price_list {
+		background:#6b6b6b; text-align:center; 
+		padding:5px 0 10px 0;background: #d9d1d1; 
+		border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
+	}
+	.price_list button {
+		border-radius: 20px;padding:5px 18px; background-color:#01bdfb; border:none; font-size:15px;
+	}
+	
+	.Showcase_box > div {
+		display:block;
+	}
+	.Showcase_box h3, .Client h3 {
+		padding:10px; position:relative;
+		text-transform:uppercase; 
+	}
+	.Showcase_box h3:after, .Client h3:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        margin: 0 auto;
+		left: 10px;;
+        right: 0;
+		width: 5%;
+		background: linear-gradient(90deg, blue, green);
+		bottom: -4px; 	
+	}
+	.Showcase_box h5:after {
+		position: absolute;
+        content: '';
+        height: 2px;
+        margin: 0 auto;
+		left: 10px;;
+        right: 0;
+		width: 5%;
+		bottom: 75px;
+		background: red;	
+	}
+	.Showcase_box p {
+		padding:10px; text-align:center;
+	}
+	.Client {
+		background:#f6f6f6;
+	}
+	.Client > div {
+		display:block;
+	}
+	.Clients {
+		text-align: center; 
+		padding: 0 0 30px 0; margin: 20px auto;
+	}
+	#section_10 i {
+		font-size:3em; padding:20px 50px;
+		border:2px solid #d1d1d1;
+	}
+	
+	
+.contact-info {
+	display: inline-block;
+}
+.contact-info a {
+	text-decoration:none;
+}	
+.contact-info i, .contact-info a, .social-links i {
+	color:#eee;
+}
+.social-links i{
+	font-size:18px; 
+}
+
+.social-links a {
+	margin: 0 5px;
+}
+#navbarResponsive  ul {
+	padding: 15px 15px;
+}
+#navbarResponsive  li {
+	margin:0 5px; font-size:18px; font-weight:600;padding:2px;
+}
+
+#main {
+	margin-bottom:20px;
+}
+
+
+
+.input_box input[type="text"], .input_box input[type="number"], .input_box input[type="E-mail"], .input_box input[type="address"] {
+	padding:2px;margin:10px auto; width: 70%;
+}
+
+
+
+.radus{
+	border-radius:10px !important;
+}
+
+
+
+.main-foot {
+	padding:30px 0;
+}
+.main-foot h4{
+	color:#fff;
+}
+.main-foot .foot .col p{
+	color:#fff;
+}
+.copyrt {
+	
+}
+
+@media screen and (min-width: 520px) {
+	.contact-info {
+		display:flex;
+	}
+}
+@media screen and (min-width: 520px) {
+	.input_icon textarea{
+		margin: 0 auto;
+		width: 72%;
+	}
+}
+@media screen and (min-width: 681px) and (max-width: 767px) {
+	.CTA > div {
+		padding:30px 50px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.CTA > div {
+		padding:35px 100px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.social-links {
+		margin-left: 50px;
+	}
+	.CTA > div {
+		padding:35px 200px;
+	}
+	.input_box .msg i {
+		top: -90px !important;
+	}
+}
+@media screen and (min-width: 768px) {
+	.social-nav {
+		display:flex;
+	}
+	.social-links{
+		float:right;
+	}
+	.input_box {
+		padding: 0 0 20px 0;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.contact-info span {
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	#myCarousel { top: -132px !important; }
+}
+@media screen and (min-width:700px) and (max-width:30px) {
+	.social-links { }
+	
+	.social-links a {
+		margin: 0 !important;
+	}
+}
+@media screen and (min-width:540px) and (max-width:991px) {
+	.input_box textarea { width:70%; }
+}
+
+@media screen and (min-width:320px) and (max-width:991px) {
+	.ps_lft h4, .ps_rgt h4 {
+		text-align:center;
+	}
+}
+@media screen and (min-width:992px) {
+	.ps_lft h4 {
+		float:right;
+	}
+	.ps_rgt h4 {
+		float:left;
+	}
+	.ps_lft p, .ps_rgt p {
+		text-align:justify;
+		margin-top:20px; padding:2px 5px;
+	}
+}
