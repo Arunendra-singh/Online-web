@@ -1,0 +1,12 @@
+// this concept for how to change sections on click //
+
+jQuery(document).ready(function() {
+	
+	$('#btn-01').click(function(e){
+     	$("initial div id or class / after btn-01 id or class").removeAttr( 'btn-02' || 'btn-03' ||'btn-04' || 'btn-05' ).attr('CHECKFRONT_WIDGET_02');
+
+     	setTimeout( function() {
+				$( 'second removing div id or class type here' ).addClass( 'second adding div id or class type here' );
+			}, 1000);
+	});
+});
