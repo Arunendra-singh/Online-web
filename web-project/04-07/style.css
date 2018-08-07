@@ -1,0 +1,66 @@
+/* for first heading area */
+.clear { clear: both; }
+.row {width: 100%;}
+.row:after {  clear: both;	}
+ul{ list-style: none; display: block; }
+
+ul li{ text-align: center; display: inline-block; width: 17%; }
+
+.first-row button { 
+	font-size: 17px;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+.first-row{ 
+	display: block;  top: 50px; width: 100%; height: auto;
+ }
+ .wrap_align_left { width: 50%; float: left; text-align: center;}
+ .wrap_align_rgt {
+ 	float: right; position: relative; width: 50%; 
+ }
+
+/* for second section area */
+.second-section {
+	display: flex; 
+}
+
+.second-section .Wrap_wid { 
+	width: 24%; height: auto; position: relative; 
+	text-align: center; display: inline-block;
+	padding: 0 10px; word-wrap: break-word; margin: 0 10PX;
+}
+.Wrap_wid {
+	font-weight: 500; 
+	box-shadow: -5px 3px 5px #d1d1d14d; 
+}
+
+.Wrap_wid h2 {background-color: #ec3a48; text-align: left; padding-left: 20px; }
+.Wrap_wid h2 .fa-angle-down {float: right; padding-right: 25px;}
+.Wrap_wid .feture-img img { width: 200px; height: 200px; }
+
+.description { padding-bottom: 20px; }
+.description p { text-align: left; font-size: 18px; }
+
+.third-section img { width: 100px; height: 100px; }
+.third-section .Wrap_wid{
+	width: 15%; height: auto; position: relative; 
+	text-align: center; display: inline-block;
+	padding: 0 10px; word-wrap: break-word;
+}
+
+.abc { background: #d1d1d1; text-align: center; margin: auto; }
+.logo-img { width: 25%; float: left; }
+.shop-today{ width: 75%; }
+.Fruit-cl {border-style: none;
+
+	background-color: #ff2334;	font-size: 18px;
+	font-weight: 600; color: #fff;
+	width: 10%;	padding: 6px 15px;
+	text-align: center; font-size: 18px;
+}
+
+.product-list h5{ font-size: 18px;color: #ff2334;font-weight: 600;  }
+.product-list button { border-style: none; background: none; font-size: 18px;}
+
+.action-btn { padding: 5px 20px;color:#fff; font-size: 18px;font-weight: 500;border-style: none;background-color: #ff2334; }
