@@ -4,6 +4,8 @@
 		<title>Fruits</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	</head>
 	<body>
 		<main class="main">
@@ -100,7 +102,7 @@
 									<li>
 										<div class="product-list">
 											<button onclick="buttonClick();">+</button>
-											<h5 style="margin: 0 auto">Price <i class="fas fa-angle-down"></i></h5>
+											<h5 style="margin: 0 auto">Price</h5>
 											<input type="text" name="increment-number" id="inc" value="0" min="10" max="100" class="Fruit-cl"><br/>
 											<button onclick="buttonClick1();">-</button>
 										</div>
@@ -112,7 +114,7 @@
 							</div>
 						</div>
 
-						<div class="row third-section">
+						<div class="owl-carousel third-section">
 							<div class="Wrap_wid">
 								<img src="image/fr4.jpg"><br/>
 								<h6>straberry</h6>
@@ -153,6 +155,38 @@
 				</div>
 			</div>
 	</main> 
+
+	<script>
+	    var i = 0;
+	    function buttonClick() {
+	       
+	       if ( true ) {
+	    	   function buttonClick() {
+	        i++;
+	        document.getElementById('inc').value = i;
+	    }
+				} else ( false) {
+	    	 function buttonClick1() {
+	        i--;
+	        document.getElementById('inc').value = i;
+	    }
+				} 
+	    }
+	</script>
+	<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+		    loop:true, margin:15, autoplay: true,
+		    center:true, responsiveClass:true,
+		    lazyLoad: true,
+		    responsive:{
+		      0:{ items:1, nav:true   },
+		      600:{  items:3, nav:false  },
+		      1000:{  items:5,  nav:true, loop:true  }
+		    }
+		})
+	</script>
+	<script src="jquery.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>
 
