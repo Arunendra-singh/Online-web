@@ -33,6 +33,7 @@ ul li{ text-align: center; display: inline-block; width: 17%; }
 .Wrap_wid {
 	font-weight: 500; 
 	box-shadow: -5px 3px 5px #d1d1d14d; 
+	crop: rect(0px, 115px, 85px, 30px); 
 }
 
 .Wrap_wid h2 {background-color: #ec3a48; text-align: left; padding-left: 20px; }
@@ -51,7 +52,7 @@ ul li{ text-align: center; display: inline-block; width: 17%; }
 
 .abc { background: #d1d1d1; text-align: center; margin: auto; }
 .logo-img { width: 25%; float: left; }
-.shop-today{ width: 75%; }
+.shop-today{ width: 75%; margin: 0 auto;}
 .Fruit-cl {border-style: none;
 
 	background-color: #ff2334;	font-size: 18px;
